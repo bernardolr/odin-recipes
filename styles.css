@@ -1,12 +1,77 @@
-.body {
-    background-color: antiquewhite;
+*{
+    background-color: white;
 }
 
+.Title{
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
 a:link, a:visited, a:hover, a:active {
+    text-align: center;
+    font-size: 20px;
     color: black;
     text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+
 }
 
 ul.frontPage {
     list-style-type: none;
+    padding: none;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    float: center;
+
+}
+
+.borders{
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: left;
+
+
+}
+
+.left-div{
+    float: left;
+}
+
+
+.right-div{
+    float: right;
+    display: center;
+    align-items: center;
+}
+
+.small_title{
+    transform: rotate(-90deg);
+    vertical-align: middle;
+
+
+}
+
+    
+}
+
+p {
+    float:  left;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    float: bottom;
 }
